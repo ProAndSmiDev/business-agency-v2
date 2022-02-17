@@ -1,11 +1,12 @@
-$font: 'YourFont';
+$font: 'WorkSans', 'Arial', sans-serif;
 
 // css theme colors
-$theme: 'YourThemeColor';
-$primary: 'YourPrimaryColor';
-$secondary: 'YourSecondaryColor';
+$theme: hsl(209, 99%, 57%);
+$primary: hsl(0, 0%, 100%);
+$secondary: hsl(0, 0%, 14%);
 
 // alternative colors
-$theme_alternate: 'YourThemeAlternateColor';
-$primary_alternate: 'YourPrimaryAlternateColor';
-$secondary_alternate: 'YourSecondaryAlternateColor';
+$loader_color: hsl(30, 1%, 47%);
+$error_tooltip_bg: hsl(0, 100%, 48%);
+$form_input_bg: darken($primary, 0.04);
+$project_tooltip_bg: darken($secondary, 0.14);
