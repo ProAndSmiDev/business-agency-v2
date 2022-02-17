@@ -1,3 +1,59 @@
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  font-weight: 500;
+  src: url("../fonts/Roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSans";
+  font-display: swap;
+  font-weight: 300;
+  src: url("../fonts/WorkSans/WorkSans-Light.woff2") format("woff2"), url("../fonts/WorkSans/WorkSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSans";
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/WorkSans/WorkSans-Regular.woff2") format("woff2"), url("../fonts/WorkSans/WorkSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSans";
+  font-display: swap;
+  font-weight: 500;
+  src: url("../fonts/WorkSans/WorkSans-Medium.woff2") format("woff2"), url("../fonts/WorkSans/WorkSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSans";
+  font-display: swap;
+  font-weight: 600;
+  src: url("../fonts/WorkSans/WorkSans-SemiBold.woff2") format("woff2"), url("../fonts/WorkSans/WorkSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "WorkSans";
+  font-display: swap;
+  font-weight: 700;
+  src: url("../fonts/WorkSans/WorkSans-Bold.woff2") format("woff2"), url("../fonts/WorkSans/WorkSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  font-weight: 700;
+  src: url("../fonts/Montserrat/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(253, 228, 165, 0.4);
@@ -142,7 +198,7 @@ footer {
 }
 
 body {
-  font: 16px/1.5 "YourFont", "Arial", "Roboto", sans-serif;
+  font: 16px/1.5 "WorkSans", "Arial", sans-serif;
 }
 
 .header--is-fixed {
